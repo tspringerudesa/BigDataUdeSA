@@ -4,3 +4,8 @@ cd "/users/tomas/desktop/bigdata"
 
 use "data.dta", clear
 sum price
+
+* Hago un grafico entre la demanda y el precio
+
+twoway (scatter price demand)
+
