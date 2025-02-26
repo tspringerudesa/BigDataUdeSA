@@ -1,1 +1,6 @@
 # Estoy grabando el video para la tutorial
+
+cd "/users/tomas/desktop/bigdata"
+
+use "data.dta", clear
+sum price
