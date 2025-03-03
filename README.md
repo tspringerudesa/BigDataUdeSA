@@ -8,7 +8,7 @@ Cada carpeta contiene los materiales correspondientes a una clase, incluyendo no
 
 | Carpeta | Contenido | Material Adicional |
 |---------|----------|-------|
-| `Tutorial_0` | Introducción a Python | |
+| `Tutorial_0` | Introducción a Python | [Video 1](https://www.youtube.com/watch?v=sOtji0xmh7s) ; [Video 2](https://www.youtube.com/watch?v=38IaSumrHMw) |
 | `Tutorial_1` | Repaso a Python (Pandas Y Matplotlib) | |
 | `Tutorial_2` | Web Scraping, GitHub | |
 | `Tutorial_3` | Método no supervisado I: PCA | |
