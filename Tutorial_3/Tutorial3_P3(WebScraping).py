@@ -159,7 +159,8 @@ titulos_df
 
 """### Opción B - Usando select. Defino un selector
 
-Un selector es un descriptor de un elemento de HTML. Como antes usamos la etiqueta (tag) h2 para encontrar los elementos buscados, un selector combina etiquetas, clases y ids en un solo string para hacer la búsqueda deseada.
+Un selector es un descriptor de un elemento de HTML. Como antes usamos la etiqueta (tag) h2 para encontrar los elementos buscados,
+un selector combina etiquetas, clases y ids en un solo string para hacer la búsqueda deseada.
 
 Si quieren [acá](https://www.w3schools.com/cssref/css_selectors.php) tienen un enlace para leer más sobre selectores
 """
@@ -220,9 +221,10 @@ Más información sobre sentiment analysis, acá: https://www.datacamp.com/tutor
 #pip install nltk
 #pip install stop_words
 #pip install spacy
-#!python -m spacy download es_core_news_sm
+#python -m spacy download es_core_news_sm
 #pip uninstall vaderSentiment
 #pip install vader-multi
+#pip install textblob
 
 # Importamos los paquetes a utilizar
 import string
@@ -236,7 +238,7 @@ import spacy # para preprocesamiento en español
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # ntlk requiere descargar algunos datos adicionales
-#nltk.download('all')
+nltk.download('all')
 
 # Para trabajar en inglés usar:
 from textblob import TextBlob
